@@ -7,6 +7,9 @@ import { NavLink } from "react-router-dom";
 // Helmet
 import { Helmet } from "react-helmet";
 
+// Component
+import Swiper from "../Components/Swipe";
+
 // Images
 import HeroImage from "../Images/Hero.svg";
 
@@ -108,10 +111,10 @@ const Home = () => {
           </div>
           <div className="direction_card third_card">
             <img src={stay} alt="stay" />
-            <h3>Analyse your meals and recipes</h3>
+            <h3>Stay Motivated</h3>
             <p>
-              Enter recipes and meals and see full nutritional information in
-              seconds. View and track calories,
+              Join the World’s Largest Fitness Community for advice, tips, and
+              support 24/7.
             </p>
           </div>
         </div>
@@ -125,6 +128,18 @@ const Home = () => {
               Get inspired for the journey ahead.
             </p>
           </div>
+          <Swiper />
+        </div>
+        {/* Last showcase */}
+        <div className="last_showcase">
+          <h1>The first Step to becoming Healthier</h1>
+          <p>
+            Achieve your health and weight goal by tracking your food and
+            learning along the way
+          </p>
+          <NavLink to="/">
+            <button>Get started</button>
+          </NavLink>
         </div>
       </div>
     </>

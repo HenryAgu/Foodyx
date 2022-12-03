@@ -7,6 +7,7 @@
   top: 0;
   left: 0;
   right: 0;
+  z-index: 100;
 }
 
 header {
@@ -68,11 +69,11 @@ header {
         width: 60%;
       }
     .left-side img {
-        width: 20px;
+        display: none;
       }
     .left-side button{
-        padding-left: 10px;
-        padding-right: 10px;
+        padding-left: 20px;
+        padding-right: 20px;
         font-size: 15px;
         margin-left: 20px;
         height: 35px;

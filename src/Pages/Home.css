@@ -11,6 +11,10 @@
   gap: 100px;
   justify-content: space-between;
   margin-bottom: 100px;
+  background-image: url(../Images/Background\ Strokes.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .hero-image,
@@ -258,4 +262,270 @@
   color: #2a2a2a;
   width: 60%;
   margin: 0 auto;
+}
+
+/* Last showcase */
+
+.last_showcase {
+  background-image: url(../Images/last-showcase.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 35px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 50vh;
+  margin-bottom: 80px;
+  padding: 50px;
+}
+
+.last_showcase h1 {
+  font-family: "Urbanist";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 50px;
+  line-height: 72px;
+  color: #02860d;
+}
+
+.last_showcase p {
+  font-family: "Urbanist";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 38px;
+  text-align: center;
+  color: #006a09;
+}
+
+.last_showcase button {
+  background: #02980e;
+  border: 1.5px solid #02980e;
+  border-radius: 5px;
+  padding-left: 30px;
+  padding-right: 30px;
+  height: 45px;
+  font-family: "Urbanist";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  color: #ffffff;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+.last_showcase button:hover {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+/* Responsiveness starts here */
+
+/* Large screens */
+@media (max-width: 1024px) {
+  .home {
+    width: 90%;
+  }
+  /* Hero section */
+  .hero {
+    align-items: center;
+  }
+  .hero-text h1 {
+    font-size: 50px;
+    line-height: 66px;
+  }
+
+  /* showcase section */
+  .showcase_image img {
+    width: 100%;
+  }
+
+  .showcase_text h2 {
+    font-size: 40px;
+    line-height: 55px;
+  }
+
+  /* Our Benefits */
+  .benefits-texts {
+    gap: 30px;
+  }
+  .benefits-texts h2 {
+    font-size: 40px;
+    line-height: 55px;
+  }
+  /* Direction */
+  .direction {
+    gap: 15px;
+  }
+  .direction_card img {
+    width: 15%;
+    padding: 10px;
+    border-radius: 6px;
+  }
+}
+
+/* medium screens */
+@media (max-width: 991px) {
+  .hero {
+    display: flex;
+    gap: 50px;
+  }
+  .hero-text h1 {
+    font-size: 40px;
+    line-height: 56px;
+  }
+  .hero-text button {
+    margin: 10px auto;
+  }
+  .showcase_text h2 {
+    font-size: 30px;
+    line-height: 45px;
+  }
+  .showcase_text p {
+    font-size: 18px;
+    line-height: 30px;
+  }
+
+  /* Our Benefits */
+  .benefits-texts {
+    gap: 20px;
+    margin-bottom: 30px;
+  }
+  .benefits-texts h2 {
+    font-size: 30px;
+    line-height: 45px;
+  }
+  .benefits-texts p {
+    font-size: 18px;
+    line-height: 30px;
+  }
+  /* direction */
+  .direction_card {
+    padding: 15px;
+  }
+  .direction_card h3 {
+    font-size: 22px;
+    line-height: 30px;
+  }
+
+  .direction_card p {
+    font-size: 18px;
+    line-height: 25px;
+  }
+  /* Review */
+  .review_header span {
+    font-size: 22px;
+  }
+
+  .review_header h1 {
+    font-size: 40px;
+  }
+
+  .review_header p {
+    font-size: 18px;
+    width: 80%;
+  }
+  /* Last showcase */
+  .last_showcase {
+    height: 20vh;
+    text-align: center;
+  }
+  .last_showcase h1 {
+    font-size: 40px;
+    line-height: 50px;
+  }
+
+  .last_showcase p {
+    font-size: 22px;
+    line-height: 30px;
+  }
+}
+
+/* Small Screens */
+@media only screen and (max-width: 480px) {
+  .hero {
+    flex-direction: column-reverse;
+    gap: 50px;
+  }
+  .hero-image,
+  .hero-text {
+    width: 100%;
+    text-align: center;
+  }
+  /* Showcase section */
+
+  .show_case {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .showcase_image,
+  .showcase_text {
+    width: 100%;
+  }
+
+  /* Our benefits */
+  .benefits_header h3 {
+    font-size: 18px;
+    margin-bottom: 30px;
+  }
+  
+  .benefits-texts {
+    flex-direction: column;
+    gap: 0;
+  }
+  .benefits-texts h2,
+  .benefits-texts p {
+    width: 100%;
+  }
+  .benefits-texts h2 {
+    margin-bottom: -5px;
+    line-height: 40px;
+  }
+  /* Direction */
+  .direction_card {
+    padding: 20px;
+  }
+  .direction {
+    flex-direction: column;
+    gap: 50px;
+    margin-bottom: 100px;
+  }
+    /* Review */
+    .review_header span {
+      font-size: 18px;
+    }
+  
+    .review_header h1 {
+      font-size: 35px;
+      line-height: 50px;
+    }
+  
+    .review_header p {
+      font-size: 16px;
+      margin-top: 10px;
+      width: 100%;
+    }
+      /* Last showcase */
+  .last_showcase {
+    height: auto;
+    text-align: center;
+    padding: 30px;
+  }
+  .last_showcase h1 {
+    font-size: 35px;
+    line-height: 40px;
+  }
+
+  .last_showcase p {
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  .last_showcase button{
+    text-align: center;
+  }
 }
