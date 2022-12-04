@@ -454,6 +454,11 @@
     width: 100%;
     text-align: center;
   }
+  .brand_image img {
+    width: 80%;
+    object-fit: contain;
+    aspect-ratio: 3/3;
+  }
   /* Showcase section */
 
   .show_case {
