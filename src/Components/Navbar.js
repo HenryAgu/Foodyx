@@ -20,7 +20,7 @@ const Navbar = () => {
           </div>
           <div className="left-side">
             <img src={globe} alt="globe" />
-            <NavLink to="/">
+            <NavLink to="/carolies-calculator">
               <button>Get started</button>
             </NavLink>
           </div>

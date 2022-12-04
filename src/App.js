@@ -6,6 +6,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Navbar from './Components/Navbar';
 import Footer from './Components/Footer';
 import Home from '../src/Pages/Home';
+import CaroliesPage from './Pages/CaroliesPage';
 
 function App() {
   return (
@@ -13,7 +14,10 @@ function App() {
       <BrowserRouter>
       <Navbar/>
       <Routes>
-          <Route path="/" element={<Home/>}/>
+          <Route exact path="/" element={<Home/>}/>
+        </Routes>
+        <Routes>
+          <Route exact path='/carolies-calculator' element={<CaroliesPage/>}/>
         </Routes>
         <Footer/>
       </BrowserRouter>

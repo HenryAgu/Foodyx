@@ -44,7 +44,7 @@ const Home = () => {
               Take good care of your health starting from your daily food
               intake. Always remember Health is wealth
             </p>
-            <NavLink to="/">
+            <NavLink to="/carolies-calculator">
               <button>Get started</button>
             </NavLink>
           </div>
@@ -137,7 +137,7 @@ const Home = () => {
             Achieve your health and weight goal by tracking your food and
             learning along the way
           </p>
-          <NavLink to="/">
+          <NavLink to="/carolies-calculator">
             <button>Get started</button>
           </NavLink>
         </div>

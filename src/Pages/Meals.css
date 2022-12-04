@@ -1,0 +1,59 @@
+.container{
+    width: 100%;
+}
+.meal {
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  margin-top: 100px;
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  text-align: center;
+  gap: 20px;
+  overflow-x: hidden;
+}
+
+
+.meal-card h3 {
+  font-family: "Urbanist";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 25px;
+  color: #02980e;
+}
+
+.meal-card p {
+  font-family: "Urbanist";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 10px;
+  color: #2a2a2a;
+}
+
+/* medium screens */
+@media (max-width: 991px) {
+    .meal{
+        grid-template-columns: repeat(2,1fr);
+        padding: 30px;
+        gap: 30px;
+    }
+    .meal-card h3 {
+        font-size: 18px;
+        line-height: 20px;
+      }
+      
+      .meal-card p {
+        font-size: 14px;
+        line-height: 10px;
+      }
+}
+
+/* Small Screens */
+@media only screen and (max-width: 480px) {
+    .meal{
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+}
