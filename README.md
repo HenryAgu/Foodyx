@@ -26,6 +26,8 @@ Foodyx gives you a breakdown of calories and nutrients, compare serving sizes, a
 
 
 - Then watch edamam API generate options of that meal with their calories.
+ ![foodyx-result](https://user-images.githubusercontent.com/74037448/205733891-bc0a26ca-5de2-48e8-958d-65b1875d97b0.PNG)
+
 
 
 ## To Run this program on your device
