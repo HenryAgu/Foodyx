@@ -3,10 +3,10 @@
 Foodyx gives you a breakdown of calories and nutrients, compare serving sizes, and discover how the food you eat supports your goals.
 
 # Screenshot
+![foodyx-started](https://user-images.githubusercontent.com/74037448/205732736-93a7f818-47e0-4fcd-bd9f-208c2378014b.PNG)
+![foodyx](https://user-images.githubusercontent.com/74037448/205732757-6a3aaeda-c05c-4510-a374-a2b9ef040825.PNG)
+![foodyx2](https://user-images.githubusercontent.com/74037448/205732767-39211ca4-b465-4b04-85af-1e0395bd44d2.PNG)
 
-![passgen1](https://user-images.githubusercontent.com/74037448/199025915-01987067-cba7-4b7d-a96c-f03899a95a90.PNG)
-![passgen2](https://user-images.githubusercontent.com/74037448/199025923-3bcb8d8b-fcd1-493d-9359-e72fcc00a9e9.PNG)
-![passgen3](https://user-images.githubusercontent.com/74037448/199025926-33e976e6-f014-4b77-93ab-5eaf9230d5e5.PNG)
 
 ### Built with
 
@@ -22,7 +22,8 @@ Foodyx gives you a breakdown of calories and nutrients, compare serving sizes, a
 - Click on any 'Get started' button when the page loads.
 
 - Enter your choice of meal into the search box.
-![passgen3](https://user-images.githubusercontent.com/74037448/199025926-33e976e6-f014-4b77-93ab-5eaf9230d5e5.PNG)
+![foodyx-search](https://user-images.githubusercontent.com/74037448/205732605-8c19a204-cc15-4623-bce7-b92cfe7f8373.PNG)
+
 
 - Then watch edamam API generate options of that meal with their calories.
 
