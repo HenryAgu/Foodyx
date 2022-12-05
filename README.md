@@ -1,70 +1,59 @@
-# Getting Started with Create React App
+# Foodyx
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Foodyx gives you a breakdown of calories and nutrients, compare serving sizes, and discover how the food you eat supports your goals.
 
-## Available Scripts
+# Screenshot
 
-In the project directory, you can run:
+![passgen1](https://user-images.githubusercontent.com/74037448/199025915-01987067-cba7-4b7d-a96c-f03899a95a90.PNG)
+![passgen2](https://user-images.githubusercontent.com/74037448/199025923-3bcb8d8b-fcd1-493d-9359-e72fcc00a9e9.PNG)
+![passgen3](https://user-images.githubusercontent.com/74037448/199025926-33e976e6-f014-4b77-93ab-5eaf9230d5e5.PNG)
 
-### `npm start`
+### Built with
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- Semantic HTML5 markup
+- CSS custom properties
+- Flexbox
+- Reactjs (Hooks like states and effects)
+- API (https://developer.edamam.com/edamam-recipe-api)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+## Roadmap
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Click on any 'Get started' button when the page loads.
 
-### `npm run build`
+- Enter your choice of meal into the search box.
+![passgen3](https://user-images.githubusercontent.com/74037448/199025926-33e976e6-f014-4b77-93ab-5eaf9230d5e5.PNG)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Then watch edamam API generate options of that meal with their calories.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## To Run this program on your device
 
-### `npm run eject`
+- Open your terminal
+- Locate this project
+- Run 'npm init' to get the 'node module' folder
+- Run 'npm start' to run the program on your local browser.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## What I Learnt on the project
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+    I learnt to use axios to get data from an api and it is way easier than useEffect.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```js
+      .get(
+        `https://api.edamam.com/search?q=${search}&app_id=${APP_ID}&app_key=${APP_KEY}`
+      )
+      .then((res) => {
+        setData(res.data.hits);
+      });
+```
 
-## Learn More
+# Designer
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- Twitter - [@AdahJonathan](https://twitter.com/AdahJonathann)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+# Developer
 
-### Code Splitting
+- Twitter - [@\_henryi](https://www.twitter.com/_henryi)
+- LinkedIn - [Henry Agu](https://www.linkedin.com/in/agu-henry-871a981b0)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
