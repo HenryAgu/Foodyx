@@ -37,9 +37,7 @@ header {
   background: #02980e;
   border: 1.5px solid #02980e;
   border-radius: 5px;
-  padding-left: 30px;
-  padding-right: 30px;
-  height: 45px;
+  padding: 10px 25px;
   font-family: "Urbanist";
   font-style: normal;
   font-weight: 500;
@@ -72,10 +70,8 @@ header {
         display: none;
       }
     .left-side button{
-        padding-left: 2px;
-        padding-right: 2px;
         font-size: 14px;
-        margin-left: 20px;
-        height: 35px;
+        margin-left: 0;
+        padding: 10px 15px;
     }
 }
