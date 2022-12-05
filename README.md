@@ -17,7 +17,8 @@ Foodyx gives you a breakdown of calories and nutrients, compare serving sizes, a
 - API (https://developer.edamam.com/edamam-recipe-api)
 
 
-## Roadmap
+## How To Use Foodyx
+
 
 - Click on any 'Get started' button when the page loads.
 
@@ -54,6 +55,7 @@ Foodyx gives you a breakdown of calories and nutrients, compare serving sizes, a
 # Designer
 
 - Twitter - [@AdahJonathan](https://twitter.com/AdahJonathann)
+- Behance Profile - [@Jonathan Adah](https://www.behance.net/jonathanadah01)
 
 # Developer
 
