@@ -6,7 +6,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Navbar from './Components/Navbar';
 import Footer from './Components/Footer';
 import Home from '../src/Pages/Home';
-import CaroliesPage from './Pages/CaroliesPage';
+import CaloriesPage from '../src/Pages/CaloriesPage';
 
 function App() {
   return (
@@ -17,7 +17,7 @@ function App() {
           <Route exact path="/" element={<Home/>}/>
         </Routes>
         <Routes>
-          <Route exact path='/carolies-calculator' element={<CaroliesPage/>}/>
+          <Route exact path='/carolies-calculator' element={<CaloriesPage/>}/>
         </Routes>
         <Footer/>
       </BrowserRouter>

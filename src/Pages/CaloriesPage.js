@@ -1,5 +1,5 @@
 // stylesheet
-import "./CaroliesPage.css";
+import "./CaloriesPage.css";
 
 // State hook
 import { useState } from "react";
@@ -14,7 +14,7 @@ import { Helmet } from "react-helmet";
 import calculator from "../Images/calculator.svg";
 import Meals from "./Meals";
 
-const CaroliesPage = () => {
+const CaloriesPage = () => {
   const APP_ID = "4954ae6c";
   const APP_KEY = "0485bb861eee80fcc63d02ece26379f8";
 
@@ -39,10 +39,10 @@ const CaroliesPage = () => {
         </title>
         <link rel="canonical" href="http://mysite.com/example" />
       </Helmet>
-      <div className="carolies">
-        <div className="carolies-header">
-          <div className="inner-carolies-header">
-            <div className="calories-header">
+      <div className="calories">
+        <div className="calories-header">
+          <div className="inner-calories-header">
+            <div className="calories-head">
               <img src={calculator} alt="calculator" />
               <h1>Food Calorie Calculator</h1>
             </div>
@@ -70,10 +70,10 @@ const CaroliesPage = () => {
             </div>
           </div>
         </div>
-        <Meals data={data}/>
+        {data.length>=1 ? <Meals data={data}/>: <h5>No match found</h5>}
       </div>
     </div>
   );
 };
 
-export default CaroliesPage;
+export default CaloriesPage;
