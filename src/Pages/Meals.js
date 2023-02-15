@@ -1,8 +1,6 @@
 // stylesheet
 import './Meals.css';
 
-// Images
-import test from '../Images/test.jpg';
 
 const Meals = ({data}) => {
 
