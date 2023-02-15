@@ -14,9 +14,11 @@ import { Helmet } from "react-helmet";
 import calculator from "../Images/calculator.svg";
 import Meals from "./Meals";
 
+
+
 const CaloriesPage = () => {
-  const APP_ID = "4954ae6c";
-  const APP_KEY = "0485bb861eee80fcc63d02ece26379f8";
+  const API_KEY = process.env.REACT_APP_API_KEY;
+  const API_ID = process.env.REACT_APP_API_ID;
 
   //   user input for search
   const [search, setSearch] = useState("");
@@ -24,7 +26,7 @@ const CaloriesPage = () => {
   const generateRecipe = () => {
     axios
       .get(
-        `https://api.edamam.com/search?q=${search}&app_id=${APP_ID}&app_key=${APP_KEY}`
+        `https://api.edamam.com/search?q=${search}&app_id=${API_ID}&app_key=${API_KEY}`
       )
       .then((res) => {
         setData(res.data.hits);
